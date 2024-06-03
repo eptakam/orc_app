@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/styles.css">
+  <title>ORC from image</title>
+</head>
+<body>
+  <div class="container">
+    <div class="upper">
+      <input type="file">
+      <button>Start</button>
+      <div class="progress"> </div>
+    </div>
+    <div class="bottom">
+      <div>
+        <img src="" alt="">
+      </div>
+      <div>
+        <textarea placeholder="text"></textarea>
+      </div>
+    </div>
+  </div>
+  <!-- Lien vers la librairie tesseract: https://www.npmjs.com/package/tesseract.js -->
+  <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+</html>
